@@ -1,1 +1,12 @@
 /* your code here */
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+	border:1px solid grey;
+}
+.photo-container{border:1px solid grey;background-color:lightgreen;width:350px;}
+.photo-album{}
