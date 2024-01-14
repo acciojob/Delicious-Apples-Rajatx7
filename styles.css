@@ -1,4 +1,7 @@
 /* your code here */
+body{background-color:green; position:relative}
+
+
 ul {
   list-style: none;
 }
@@ -8,5 +11,20 @@ li {
   margin-right: 10px;
 	border:1px solid grey;
 }
-.photo-container{border:1px solid grey;background-color:lightgreen;width:350px;}
-.photo-album{}
+.product__info{background-color:white;width:600px;height:450px; top:35px; left:150px;
+			   position:absolute;;
+			   display:flex; flex-direction:column;text-align:right; padding:30px
+			   }
+.photo-container{background-color:lightgreen;width:350px;box-shadow:3px 3px 5px black;
+				position:absolute; top:50px; left:100px;border-top-right-radius:10px; 
+				 border-top-left-radius:10px;;z-index:2}
+.photo-album{background-color:white;padding:5px;border-bottom-left-radius:10px;
+			 border-bottom-right-radius:10px;position:absolute;}
+#but{width:150px;height:30px ;color:white;background-color:red;
+	 position:absolute;top:470px;z-index:5;left:650px}
+.description{display:flex;text-align:right;justify-content:right;
+				flex-direction:column}
+#appleTitle{text-decoration:italic}
+#dollar{font-size:30px;color:red}
+#noBor{border:0px}
+#appleTitle{font-family:sans-serif}
